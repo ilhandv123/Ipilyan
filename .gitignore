@@ -22,6 +22,9 @@ local.properties
 *.apk
 *.dex
 
+# But keep APK in releases
+!app/build/outputs/apk/release/app-release.apk
+
 # OS files
 .DS_Store
 Thumbs.db
