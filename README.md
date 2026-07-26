@@ -3,7 +3,7 @@
 **IP ADDRESS LOOKUP — NEO BRUTALISM UI**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ilhandv123/Ipilyan/main/app/src/main/res/drawable/logo_ipilyan.xml" width="120" height="120" alt="IPILYAN Logo">
+  <img src="https://raw.githubusercontent.com/ilhandv123/Ipilyan/main/app/src/main/res/drawable/ipilyan_logo.svg" width="120" height="120" alt="IPILYAN Logo">
 </p>
 
 <p align="center">
