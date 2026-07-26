@@ -1,0 +1,13 @@
+<resources>
+  <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="android:statusBarColor">@color/bg_black</item>
+    <item name="android:navigationBarColor">@color/bg_black</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:windowLightNavigationBar">false</item>
+    <item name="android:windowBackground">@color/bg_page</item>
+    <item name="android:windowTranslucentStatus">false</item>
+    <item name="android:windowTranslucentNavigation">false</item>
+  </style>
+
+  <style name="AppTheme" parent="Base.AppTheme"/>
+</resources>

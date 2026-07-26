@@ -1,0 +1,27 @@
+/.androidpe
+/.androidide
+/.acside
+
+.gradle/
+.kotlin/
+build/
+bin/
+gen/
+out/
+
+.externalNativeBuild
+.cxx/
+
+*.iml
+.idea/
+local.properties
+
+# AndroidPE project files
+*.ap_
+*.aab
+*.apk
+*.dex
+
+# OS files
+.DS_Store
+Thumbs.db

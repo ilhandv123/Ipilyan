@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rootLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@color/bg_page"
+  android:fitsSystemWindows="true">
+
+  <!-- HEADER -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_header"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+      android:layout_width="36dp"
+      android:layout_height="36dp"
+      android:src="@drawable/logo_ipilyan"
+      android:contentDescription="Logo"/>
+
+    <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:orientation="vertical"
+      android:gravity="center_vertical"
+      android:paddingStart="8dp">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_white"
+        android:letterSpacing="0.08"
+        android:includeFontPadding="false"/>
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header_subtitle"
+        android:textSize="7sp"
+        android:textStyle="bold"
+        android:textColor="@color/accent_yellow"
+        android:textAllCaps="true"
+        android:letterSpacing="0.1"
+        android:includeFontPadding="false"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <!-- INPUT -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="8dp"
+    android:paddingTop="8dp"
+    android:gravity="center_vertical">
+
+    <EditText
+      android:id="@+id/etIp"
+      android:layout_width="0dp"
+      android:layout_height="46dp"
+      android:layout_weight="1"
+      android:hint="@string/hint_ip"
+      android:textSize="12sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:textColorHint="@color/text_muted"
+      android:background="@drawable/bg_edittext"
+      android:paddingHorizontal="10dp"
+      android:paddingVertical="0dp"
+      android:inputType="text"
+      android:imeOptions="actionSearch"
+      android:autofillHints=""
+      android:fontFamily="sans-serif"/>
+
+    <Button
+      android:id="@+id/btnLookup"
+      android:layout_width="wrap_content"
+      android:layout_height="46dp"
+      android:text="@string/btn_lookup"
+      android:textSize="11sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:background="@drawable/bg_button"
+      android:paddingHorizontal="14dp"
+      android:letterSpacing="0.06"
+      android:textAllCaps="true"
+      android:layout_marginStart="6dp"/>
+
+  </LinearLayout>
+
+  <!-- MY IP + STATUS -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="8dp"
+    android:paddingBottom="4dp"
+    android:gravity="center_vertical">
+
+    <Button
+      android:id="@+id/btnMyIp"
+      android:layout_width="wrap_content"
+      android:layout_height="32dp"
+      android:text="@string/btn_my_ip"
+      android:textSize="8.5sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:background="@drawable/bg_button"
+      android:paddingHorizontal="10dp"
+      android:textAllCaps="true"/>
+
+    <TextView
+      android:id="@+id/tvStatus"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:gravity="end"
+      android:paddingStart="6dp"
+      android:textSize="10sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:textAllCaps="true"
+      android:letterSpacing="0.06"
+      android:visibility="gone"/>
+
+  </LinearLayout>
+
+  <!-- DIVIDER -->
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="@color/divider"/>
+
+  <!-- RESULTS HEADER -->
+  <TextView
+    android:id="@+id/tvResultsHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingVertical="7dp"
+    android:text="RESULTS"
+    android:textSize="11sp"
+    android:textStyle="bold"
+    android:textColor="@color/text_white"
+    android:letterSpacing="0.12"
+    android:background="@color/bg_black"
+    android:visibility="gone"/>
+
+  <View
+    android:id="@+id/divider2"
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="@color/divider"
+    android:visibility="gone"/>
+
+  <!-- RESULTS SCROLL -->
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:fillViewport="true">
+
+    <LinearLayout
+      android:id="@+id/resultsContainer"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"/>
+
+  </ScrollView>
+
+  <!-- FOOTER DIVIDER -->
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="@color/divider"/>
+
+</LinearLayout>

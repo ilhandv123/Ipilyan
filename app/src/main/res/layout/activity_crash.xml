@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@color/bg_page"
+  android:fitsSystemWindows="true">
+
+  <!-- CRASH HEADER -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/bg_black"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="12dp">
+
+    <TextView
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="CRASH"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:textColor="@color/accent_red"
+      android:letterSpacing="0.1"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="SOMETHING BROKE"
+      android:textSize="8sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_muted"
+      android:textAllCaps="true"
+      android:letterSpacing="0.12"/>
+
+  </LinearLayout>
+
+  <!-- SUBTITLE -->
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="16dp"
+    android:text="AN UNEXPECTED ERROR OCCURRED. COPY THE LOG BELOW AND SHARE IT WITH THE DEVELOPER."
+    android:textSize="9sp"
+    android:textStyle="bold"
+    android:textColor="@color/text_primary"
+    android:background="@color/accent_red"
+    android:textAllCaps="true"
+    android:letterSpacing="0.06"/>
+
+  <!-- DIVIDER -->
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="@color/divider"/>
+
+  <!-- LOG HEADER -->
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingVertical="8dp"
+    android:text="CRASH LOG"
+    android:textSize="11sp"
+    android:textStyle="bold"
+    android:textColor="@color/text_white"
+    android:letterSpacing="0.12"
+    android:background="@color/bg_black"/>
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/divider"/>
+
+  <!-- CRASH LOG SCROLL -->
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:padding="8dp"
+    android:background="@color/bg_card">
+
+    <TextView
+      android:id="@+id/tvCrashLog"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="9sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:lineSpacingExtra="2dp"
+      android:fontFamily="monospace"/>
+
+  </ScrollView>
+
+  <!-- DIVIDER -->
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="3dp"
+    android:background="@color/divider"/>
+
+  <!-- BUTTONS -->
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@color/bg_black"
+    android:gravity="center">
+
+    <Button
+      android:id="@+id/btnCopyLog"
+      android:layout_width="0dp"
+      android:layout_height="48dp"
+      android:layout_weight="1"
+      android:text="COPY LOG"
+      android:textSize="12sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:background="@drawable/bg_button"
+      android:textAllCaps="true"
+      android:letterSpacing="0.08"/>
+
+    <View
+      android:layout_width="8dp"
+      android:layout_height="0dp"/>
+
+    <Button
+      android:id="@+id/btnRestart"
+      android:layout_width="0dp"
+      android:layout_height="48dp"
+      android:layout_weight="1"
+      android:text="RESTART"
+      android:textSize="12sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:background="@drawable/bg_button"
+      android:textAllCaps="true"
+      android:letterSpacing="0.08"/>
+
+  </LinearLayout>
+
+</LinearLayout>
