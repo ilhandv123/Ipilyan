@@ -1,9 +1,9 @@
 # IPILYAN
 
-**IP ADDRESS LOOKUP — NEO BRUTALISM UI**
+**IP ADDRESS LOOKUP — MAXIMALISM UI**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ilhandv123/Ipilyan/main/app/src/main/res/drawable/ipilyan_logo.svg" width="120" height="120" alt="IPILYAN Logo">
+  <img src="https://raw.githubusercontent.com/ilhandv123/Ipilyan/main/ipilyan_logo.svg" width="120" height="120" alt="IPILYAN Logo">
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@
 - **27 IP details** — IP Target, Type, Country, City, Continent, Region, Lat/Lon, Maps, EU, Postal, Calling Code, Capital, Borders, Flag, ASN, ORG, ISP, Domain, Timezone, DST, Offset, UTC, Current Time
 - **MY IP button** — auto-detect your own public IP
 - **Maps integration** — tap to open Google Maps at the IP's coordinates
-- **Neo Brutalism UI** — thick black borders, heavy shadows, bold typography, yellow accent
+- **Maximalism UI** — deep purple & gold gradients, ornate borders, jewel tones, luxurious feel
 - **Crash handler** — saves logs with device info, one-tap copy to clipboard
 - **Landscape support** — dedicated side-by-side layout
 - **Dual API fallback** — ipapi.co + ip-api.com for maximum reliability
@@ -75,7 +75,7 @@ APK output: `app/build/outputs/apk/release/app-release.apk`
 | Component | Library |
 |-----------|---------|
 | Language | Kotlin 2.3.0 |
-| UI | Material 3 + custom Neo Brutalism drawables |
+| UI | Material 3 + custom Maximalism drawables |
 | Networking | `HttpURLConnection` (no third-party deps) |
 | API | ipapi.co + ip-api.com |
 | Build | Gradle 9.1 + AGP 8.13.2 |
@@ -113,6 +113,6 @@ SOFTWARE.
 ---
 
 <p align="center">
-  <b>IPILYAN</b> · IP ADDRESS LOOKUP · NEO BRUTALISM<br>
+  <b>IPILYAN</b> · IP ADDRESS LOOKUP · MAXIMALISM<br>
   <sub>Powered by <a href="https://ipapi.co">ipapi.co</a> & <a href="http://ip-api.com">ip-api.com</a></sub>
 </p>

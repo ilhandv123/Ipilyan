@@ -19,7 +19,7 @@
     android:textColor="@color/text_primary"
     android:textAllCaps="true"
     android:letterSpacing="0.05"
-    android:background="@color/accent_yellow"
+    android:background="@drawable/bg_label"
     android:includeFontPadding="false"/>
 
   <View
@@ -38,8 +38,8 @@
     android:paddingVertical="11dp"
     android:textSize="13sp"
     android:textStyle="bold"
-    android:textColor="@color/text_primary"
-    android:background="@color/bg_card"
+    android:textColor="@color/text_on_dark"
+    android:background="@drawable/bg_card_item"
     android:includeFontPadding="false"/>
 
 </LinearLayout>

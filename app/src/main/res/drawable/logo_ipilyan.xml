@@ -7,29 +7,29 @@
 
   <!-- Shadow -->
   <path
-    android:fillColor="#FF0D0D0D"
+    android:fillColor="#FF4A0080"
     android:pathData="M3,3 L48,3 L48,48 L3,48 Z"/>
 
-  <!-- Yellow bg -->
+  <!-- Deep purple bg -->
   <path
-    android:fillColor="#FFFFD600"
+    android:fillColor="#FF1A0033"
     android:pathData="M1.5,1.5 L45,1.5 L45,45 L1.5,45 Z"/>
 
-  <!-- Black border -->
+  <!-- Gold border -->
   <path
-    android:strokeColor="#FF0D0D0D"
+    android:strokeColor="#FFFFD700"
     android:strokeWidth="3"
     android:fillColor="#00000000"
     android:pathData="M1.5,1.5 L45,1.5 L45,45 L1.5,45 Z"/>
 
-  <!-- Left bar - tall -->
+  <!-- Tall left bar - gold -->
   <path
-    android:fillColor="#FF0D0D0D"
+    android:fillColor="#FFFFD700"
     android:pathData="M11,10 L19,10 L19,36 L11,36 Z"/>
 
-  <!-- Right bar - short -->
+  <!-- Short right bar - gold -->
   <path
-    android:fillColor="#FF0D0D0D"
+    android:fillColor="#FFFFD700"
     android:pathData="M25,16 L33,16 L33,36 L25,36 Z"/>
 
 </vector>

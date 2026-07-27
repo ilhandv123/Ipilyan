@@ -2,17 +2,18 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
   <item>
     <shape android:shape="rectangle">
-      <solid android:color="@color/border"/>
+      <solid android:color="@color/shadow"/>
     </shape>
   </item>
-  <item
-  android:right="4dp"
-  android:bottom="4dp">
+  <item android:right="4dp" android:bottom="4dp">
     <shape android:shape="rectangle">
-      <solid android:color="@color/input_bg"/>
+      <gradient
+        android:startColor="#FF0D001A"
+        android:endColor="#FF1A0033"
+        android:angle="90"/>
       <stroke
-      android:width="3dp"
-      android:color="@color/border"/>
+        android:width="2.5dp"
+        android:color="@color/border"/>
     </shape>
   </item>
 </layer-list>

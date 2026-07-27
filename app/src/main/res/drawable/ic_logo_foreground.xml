@@ -5,14 +5,14 @@
   android:viewportWidth="108"
   android:viewportHeight="108">
 
-  <!-- Tall left bar -->
+  <!-- Tall left bar - gold -->
   <path
-    android:fillColor="#FF0D0D0D"
+    android:fillColor="#FFFFD700"
     android:pathData="M38,27 L50,27 L50,81 L38,81 Z"/>
 
-  <!-- Shorter right bar -->
+  <!-- Shorter right bar - gold -->
   <path
-    android:fillColor="#FF0D0D0D"
+    android:fillColor="#FFFFD700"
     android:pathData="M58,36 L70,36 L70,81 L58,81 Z"/>
 
 </vector>

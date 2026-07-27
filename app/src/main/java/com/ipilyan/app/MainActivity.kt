@@ -368,7 +368,7 @@ class MainActivity : AppCompatActivity() {
     if (key == "maps" && value.startsWith("http")) {
       val tv = row.findViewById<TextView>(R.id.value)
       tv.text = "OPEN MAPS"
-      tv.setTextColor(ContextCompat.getColor(this, R.color.accent_red))
+      tv.setTextColor(ContextCompat.getColor(this, R.color.accent_ruby))
       row.setOnClickListener { startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(value))) }
     } else {
       row.findViewById<TextView>(R.id.value).text = value
@@ -377,7 +377,7 @@ class MainActivity : AppCompatActivity() {
     binding.resultsContainer.addView(row)
     val divider = View(this)
     divider.layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 1)
-    divider.setBackgroundResource(R.color.divider)
+    divider.setBackgroundResource(R.drawable.bg_divider)
     binding.resultsContainer.addView(divider)
   }
 

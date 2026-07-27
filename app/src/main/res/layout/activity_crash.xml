@@ -12,7 +12,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:gravity="center_vertical"
-    android:background="@color/bg_black"
+    android:background="@drawable/bg_header"
     android:paddingStart="16dp"
     android:paddingEnd="16dp"
     android:paddingTop="8dp"
@@ -25,7 +25,7 @@
       android:text="CRASH"
       android:textSize="24sp"
       android:textStyle="bold"
-      android:textColor="@color/accent_red"
+      android:textColor="@color/accent_ruby"
       android:letterSpacing="0.1"/>
 
     <TextView
@@ -51,7 +51,7 @@
     android:textSize="9sp"
     android:textStyle="bold"
     android:textColor="@color/text_primary"
-    android:background="@color/accent_red"
+    android:background="@drawable/bg_label"
     android:textAllCaps="true"
     android:letterSpacing="0.06"/>
 
@@ -70,7 +70,7 @@
     android:text="CRASH LOG"
     android:textSize="11sp"
     android:textStyle="bold"
-    android:textColor="@color/text_white"
+    android:textColor="@color/text_gold"
     android:letterSpacing="0.12"
     android:background="@color/bg_black"/>
 
@@ -85,7 +85,7 @@
     android:layout_height="0dp"
     android:layout_weight="1"
     android:padding="8dp"
-    android:background="@color/bg_card">
+    android:background="@drawable/bg_card_item">
 
     <TextView
       android:id="@+id/tvCrashLog"
@@ -93,7 +93,7 @@
       android:layout_height="wrap_content"
       android:textSize="9sp"
       android:textStyle="bold"
-      android:textColor="@color/text_primary"
+      android:textColor="@color/text_on_dark"
       android:lineSpacingExtra="2dp"
       android:fontFamily="monospace"/>
 

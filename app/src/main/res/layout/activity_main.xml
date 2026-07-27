@@ -33,15 +33,15 @@
       android:gravity="center_vertical"
       android:paddingStart="8dp">
 
-      <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/header_title"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/text_white"
-        android:letterSpacing="0.08"
-        android:includeFontPadding="false"/>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/header_title"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_white"
+      android:letterSpacing="0.08"
+      android:includeFontPadding="false"/>
 
       <TextView
         android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
         android:text="@string/header_subtitle"
         android:textSize="7sp"
         android:textStyle="bold"
-        android:textColor="@color/accent_yellow"
+        android:textColor="@color/text_gold"
         android:textAllCaps="true"
         android:letterSpacing="0.1"
         android:includeFontPadding="false"/>
@@ -131,7 +131,7 @@
       android:paddingStart="6dp"
       android:textSize="10sp"
       android:textStyle="bold"
-      android:textColor="@color/text_primary"
+      android:textColor="@color/text_gold"
       android:textAllCaps="true"
       android:letterSpacing="0.06"
       android:visibility="gone"/>
@@ -142,28 +142,28 @@
   <View
     android:layout_width="match_parent"
     android:layout_height="3dp"
-    android:background="@color/divider"/>
+    android:background="@drawable/bg_divider"/>
 
   <!-- RESULTS HEADER -->
-  <TextView
-    android:id="@+id/tvResultsHeader"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:paddingVertical="7dp"
-    android:text="RESULTS"
-    android:textSize="11sp"
-    android:textStyle="bold"
-    android:textColor="@color/text_white"
-    android:letterSpacing="0.12"
-    android:background="@color/bg_black"
-    android:visibility="gone"/>
+    <TextView
+      android:id="@+id/tvResultsHeader"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:paddingVertical="7dp"
+      android:text="RESULTS"
+      android:textSize="11sp"
+      android:textStyle="bold"
+      android:textColor="@color/text_primary"
+      android:letterSpacing="0.12"
+      android:background="@drawable/bg_label"
+      android:visibility="gone"/>
 
   <View
     android:id="@+id/divider2"
     android:layout_width="match_parent"
     android:layout_height="3dp"
-    android:background="@color/divider"
+    android:background="@drawable/bg_divider"
     android:visibility="gone"/>
 
   <!-- RESULTS SCROLL -->
@@ -185,6 +185,6 @@
   <View
     android:layout_width="match_parent"
     android:layout_height="3dp"
-    android:background="@color/divider"/>
+    android:background="@drawable/bg_divider"/>
 
 </LinearLayout>

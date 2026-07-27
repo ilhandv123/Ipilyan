@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Purple shadow -->
+  <rect x="6" y="6" width="194" height="194" fill="#4A0080"/>
+  <!-- Deep purple background -->
+  <rect x="3" y="3" width="188" height="188" fill="#1A0033"/>
+  <!-- Gold border -->
+  <rect x="3" y="3" width="188" height="188" fill="none" stroke="#FFD700" stroke-width="6"/>
+  <!-- Tall left bar (I) -->
+  <rect x="44" y="40" width="36" height="120" fill="#FFD700"/>
+  <!-- Shorter right bar (P) -->
+  <rect x="104" y="64" width="36" height="96" fill="#FFD700"/>
+</svg>
