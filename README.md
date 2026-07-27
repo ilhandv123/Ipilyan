@@ -27,7 +27,7 @@
 
 | Version | APK |
 |---------|-----|
-| **v1.0.0** | [Download APK](https://github.com/ilhandv123/Ipilyan/releases/latest) |
+| **v1.1.0** | [Download APK](https://github.com/ilhandv123/Ipilyan/releases/latest) |
 
 ---
 
