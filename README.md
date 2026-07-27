@@ -44,6 +44,14 @@
 
 ---
 
+## 📸 Screenshot
+
+<p align="center">
+  <img src="screenshot.svg" width="100%" alt="IPILYAN App Screenshot">
+</p>
+
+---
+
 ## 🔧 Build
 
 ```bash
