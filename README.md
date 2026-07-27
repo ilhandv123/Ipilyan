@@ -47,7 +47,7 @@
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="screenshot.svg" width="100%" alt="IPILYAN App Screenshot">
+  <img src="screenshot1.svg" width="100%" alt="IPILYAN App Screenshot">
 </p>
 
 ---
